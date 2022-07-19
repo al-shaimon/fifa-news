@@ -25,6 +25,12 @@ main{
   margin-top: 50px;
   border-radius: 30px;
 }
+.container:hover{
+  transition: 0.75s, fade-out;
+  background-color: yellow;
+  color: black;
+}
+
 .banner{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -53,14 +59,81 @@ main{
   width: 100%;
   height: 500px;
 }
+/*-------- ---------------------------------------------------------
+            upcoming match and transfer news style 
+---------------------------------------------------------------------*/
+.nav-section{
+  display: flex;
+}
+.nav-box{
+  position: relative;
+  border: 2px solid; 
+  width: 312px;
+  height: 312px;
+  background-color: #161616;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-right: 20px;
+  margin-left: 100px;
+}
+.nav-btn{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  width: 252px;
+  height: 64px;
+  margin: 30px;
+  text-decoration: none;
+  color: #161616;
+}
+#blog-page{
+  background-color: red;
+  color: #FFFFFF;
 
+}
+.nav-btn:hover{
+  background-color: red;
+}
+.transfers{
+  display: grid;
+  grid-template-columns: repeat(3, 31%);
+  margin-top: 70px;
+  padding-right: 0px;
+  margin-right: 0px;
+  row-gap: 40px;
+}
 
-/*----------------------- footer --------------------*/
+.transfer-btn a{
+  display: block;
+  width: 100px;
+  height: 32px;
+  text-decoration: none;
+  text-align: center;
+  color: #161616;
+  padding-top: 5px;
+  margin-left: 15px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.transfer-title{
+  margin-left: 15px;
+  padding-right: 50px;
+}
+.course-info, .fa-clock, .fa-comment-dots{
+  margin-left: 10px;
+  padding-right: 10px;
+}
+/*-------------------------------------------------------------
+                            footer 
+---------------------------------------------------------------*/
 footer{
   background-color: black;
   color: white;
   height: 400px;
   width: auto;
+  margin-top: 150px;
 }
 
 footer h3{
