@@ -172,12 +172,51 @@ footer hr{
 
 /*--------------------- Mobile Devices --------------------------*/
 @media only screen and (max-width:688px) {
+
   .container{
     width: auto;
-    height: 859px;
+    height: 1031px;
+    margin: 20px;
+    padding-right: 30px;
+    text-align: center;
+    
   }
   .banner{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .banner-img img{
+    padding-top: 70px;
+  }
+  .btn{
+    position: relative;
+  }
+  .nav-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .nav-box{
+    background-color: #FFFFFF;
+    position: relative;
+    border: none; 
+    width: auto;
+    height: auto; 
+    margin-top: 0;
+    margin-right: 0px;
+    margin-left: 40px;
+  }
+  .nav-btn{
+    background-color: #FFFFFF;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+  .transfers{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer{
+    display: none;
   }
 }
