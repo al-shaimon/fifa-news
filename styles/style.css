@@ -165,3 +165,19 @@ footer hr{
   margin-top: 35px;
   padding-left: 15px;
 }
+
+/*------------------------------------------------------- 
+                      Media Queries
+----------------------------------------------------------*/
+
+/*--------------------- Mobile Devices --------------------------*/
+@media only screen and (max-width:688px) {
+  .container{
+    width: auto;
+    height: 859px;
+  }
+  .banner{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
