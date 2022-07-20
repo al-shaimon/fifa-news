@@ -244,7 +244,6 @@ footer hr{
     margin: 20px;
     padding-right: 30px;
     text-align: center;
-    
   }
   .banner{
     display: grid;
@@ -322,6 +321,80 @@ footer hr{
     justify-content: center;
     align-items: center;
   }
+  footer hr{
+    display: none;
+  }
+}
+
+/*--------------------------------------------------- 
+        tablet devices
+-----------------------------------------------------*/
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .container{
+    width: auto;
+    height: 50%;
+    margin: 20px;
+    padding-right: 30px;
+  }
+  .nav-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .nav-box{
+    display: flex;
+    background-color: #FFFFFF;
+    position: relative;
+    border: none; 
+    width: auto;
+    height: auto; 
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .nav-btn{
+    background-color: #FFFFFF;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+  .transfers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 12%;
+    margin-top: 0;
+  }
+  .transfer{
+    width: 86%;
+  }
+  .matches{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .match{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .hidden-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+  }
+  .hidden-btn a{
+    display: block;
+    
+  }
+  footer{
+    width: 55em;
+  }
+
   footer hr{
     display: none;
   }
