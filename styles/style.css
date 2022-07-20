@@ -133,6 +133,63 @@ main{
   margin-left: 10px;
   padding-right: 10px;
 }
+
+/*--------------------------------------------- 
+              match part 
+ ---------------------------------------------*/
+ .matches{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 70px;
+  padding-right: 0px;
+  margin-right: 0px;
+  column-gap: 40px;
+  row-gap: 40px;
+  height: 100%; 
+}
+.match{
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: rgba(231, 231, 231, 0.644);
+}
+.match-banner{
+  display: flex;
+  align-items: center;
+}
+.vs{
+  margin: 15px;
+  font-weight: 700;
+}
+.schedule{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team{
+  font-size: 12px;
+}
+.time{
+  display: block;
+  margin: -15px;
+  font-size: 14px;
+}
+
+.hidden-btn a{
+  display: flex;
+  position: relative;
+  background-color: #DD0000;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 10px 25px;
+  text-align: center;
+  justify-content: center;
+  display: none;
+}
 /*-------------------------------------------------------------
                             footer 
 ---------------------------------------------------------------*/
@@ -183,7 +240,7 @@ footer hr{
 
   .container{
     width: auto;
-    height: 1031px;
+    height: 50%;
     margin: 20px;
     padding-right: 30px;
     text-align: center;
@@ -213,7 +270,7 @@ footer hr{
     height: auto; 
     margin-top: 0;
     margin-right: 0px;
-    margin-left: 40px;
+    margin-left: 25%;
   }
   .nav-btn{
     background-color: #FFFFFF;
@@ -223,10 +280,28 @@ footer hr{
   .transfers{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 15px;
+    width: 45%;
+
+  }
+  .transfer{
+    display: block;
+    width: 98%;
+    padding-right: 0px;
+    border: 2px solid;
+    border-radius: 10px;
+  }
+
+  .matches{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     margin-left: 30px;
     margin-top: 15px;
   }
-  .transfer{
+  .match{
     display: block;
     width: 86%;
     padding-right: 0px;
@@ -239,7 +314,7 @@ footer hr{
     flex-direction: column;
     background-color: #161616;
     width: 100%;
-    height: 95em;
+    height: 70em;
   }
   .footer-info{
     display: flex;
