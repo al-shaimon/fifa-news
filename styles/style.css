@@ -109,8 +109,8 @@ main{
   flex-direction: column;
   justify-content: center;
   display: block;
-  width: 92.6%;
-  border: 2px solid;
+  width: 91.4%;
+  border: 1px solid;
   border-radius: 10px;
 }
 .transfer-btn a{
